@@ -1866,3 +1866,85 @@ Response: S.Bhuvanesh is a student at Vinayaka mission’s kirupananda variyar E
 
 ==================================================
 
+Timestamp: 2024-11-29 13:00:49
+Question: who is bhuvanesh?
+Response: S.Bhuvanesh is a student at Vinayaka mission’s kirupananda variyar Engineering college who successfully completed a Summer training internship program under the department of logistics and operations at [organisation] from 11th July to 11 th August 2024.
+
+==================================================
+
+Timestamp: 2024-11-29 13:12:37
+Question: who is bhuvanesh?
+Response: S.Bhuvanesh is a student at Vinayaka mission’s kirupananda variyar Engineering college.
+
+==================================================
+
+Timestamp: 2024-11-29 13:13:13
+Question: who is bhuvanesh?
+Response: S.Bhuvanesh is a student at Vinayaka mission’s kirupananda variyar Engineering college.
+
+==================================================
+
+Timestamp: 2024-12-02 05:09:10
+Question: give me the details about namma  sandhai?
+Response: Answer is not available in the context.
+
+==================================================
+
+Timestamp: 2024-12-02 05:14:20
+Question: give me a admin table from ola 
+Response: Answer is not available in the context
+
+==================================================
+
+Timestamp: 2024-12-02 05:14:38
+Question: give me a admin table 
+
+Response: ```sql
+CREATE TABLE Admin (
+ admin_id INT AUTO_INCREMENT PRIMARY KEY,
+ username VARCHAR(50) NOT NULL UNIQUE,
+ password_hash VARCHAR(255) NOT NULL,
+ first_name VARCHAR(50) NOT NULL,
+ last_name VARCHAR(50) NOT NULL,
+ email VARCHAR(100) NOT NULL UNIQUE,
+ phone_number VARCHAR(15),
+ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+```
+
+==================================================
+
+Timestamp: 2024-12-02 05:15:05
+Question: give me a admin table give response in sql format
+
+Response: ```sql
+CREATE TABLE Admin (
+  admin_id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  phone_number VARCHAR(15),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+```
+
+==================================================
+
+Timestamp: 2024-12-02 05:15:52
+Question: what is 1+1=?
+
+Response: Answer is not available in the context.
+
+==================================================
+
+Timestamp: 2024-12-02 05:16:15
+Question: what is 1+1=3 true or false?
+
+Response: Answer is not available in the context.
+
+==================================================
+
